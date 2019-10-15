@@ -1,0 +1,24 @@
+ @media(max-width:810px){
+.hd-img{
+  display: none !important;
+}
+.hd-txt{
+  width: 100% !important;
+}
+.desktop-menu-tray{
+  display: none;
+}
+.mobile-menu-bag{
+  display: block;
+}
+
+ }
+
+
+
+
+ @media(max-width:600px){
+   .side-margin{
+     margin: 0px !important;
+   }
+ }
