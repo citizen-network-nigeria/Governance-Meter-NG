@@ -1,9 +1,37 @@
 import React from 'react';
 
 class HeaderBottom extends React.Component{
+    constructor(props){
+        super(props);
+        this.state ={toggleOn:false, menuclass:'mobile-menu-list-bag hide-menu'};
+    }
+    
+    menutoggle=()=>{
+        this.setState(
+            state =>({
+                toggleOn: !state.toggleOn
+            })
+        ); this.mobileMenu();
+    }
+    mobileMenu =() => {  
+        if(this.state.toggleOn){
+         this.setState(
+            state =>({
+                menuclass: 'mobile-menu-list-bag hide-menu'
+            })
+        );
+        }
+        else{
+         this.setState(
+            state =>({
+                menuclass: 'mobile-menu-list-bag show-menu'
+            })
+        );
+        }
+    }
     render(){
         return(
-            <div className='side-margin'>
+            <div className=''>
                 <div className='row no-padding no-margin'>
                     <div className=" no-padding hd-img">
                         <div className="header-img-bg">
@@ -12,8 +40,8 @@ class HeaderBottom extends React.Component{
                     </div>
                     <div className=" no-padding hd-txt green-pry-bg">
                         <div className="mobile-menu-bag">
-                            <div className="green-sec-bg green-ter-color mobile-menu-button" id="menu-button">menu</div>
-                            <div className="mobile-menu-list-bag" id="mobile-menu-list-bag">
+                            <div className="green-sec-bg green-ter-color mobile-menu-button" id="menu-button" onClick={this.menutoggle}>menu</div>
+                            <div className={this.state.menuclass} id="mobile-menu-list-bag">
                                 <a href="" className="mobile-menu-list">Home </a>
                                 <a href="" className="mobile-menu-list">About Us</a>
                                 <a href="" className="mobile-menu-list">View Index</a>

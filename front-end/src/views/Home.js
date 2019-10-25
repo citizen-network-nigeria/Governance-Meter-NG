@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/header/header';
+import Headerhome from '../components/header/headerHome';
 import Footer from '../components/footer/footer';
 import BodyHeader from '../components/body/bodyheader';
 import Hometab from '../components/body/hometab';
@@ -12,9 +12,9 @@ import HomeMap from '../components/body/homeMap';
    render(){
      return(
       <React.Fragment>
-        <Header /> 
+        <Headerhome /> 
         <BodyHeader title="2020 Governance Performance Index" />
-        <Hometab />
+        <Hometab /> 
         <HomeMap />
         <HomeStory />
         <HomeUpdates />

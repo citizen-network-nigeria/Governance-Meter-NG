@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderTop from './headerTop';
 import HeaderBottom from './headerBottom';
 
-class header extends React.Component{
+class headerhome extends React.Component{
     render(){
         return(
             <div className="no-padding no-margin">  
@@ -12,4 +12,4 @@ class header extends React.Component{
         )
     }
 }
- export default header;
+ export default headerhome;

@@ -6,8 +6,8 @@ import instagram from '../../img/is.png';
 class Footer extends React.Component{
     render(){
         return(
-             <div className="no-padding no-margin">
-                 <div className="row side-margin green-ter-bg main-padding">
+             <div className="no-padding no-margin footer-bag">
+                 <div className="row green-ter-bg main-padding no-margin">
                     <div className="col-md-4 small-margin-top">
                         <h5 className="green-pry-color">Get Involved</h5>
                         <p className="footer-text-1">Governance Meter NG is an initiative of <b> The <a className='green-sec-color' href='https://citizennetwork.org.ng'>Citizen Network of Nigeria</a></b>. <a className="green-pry-color" href=''><b> Get involved </b></a> with the Governance Performance Index to improve governance in your local community</p>

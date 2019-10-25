@@ -4,7 +4,7 @@ import logo from '../../img/logo.png';
 class HeaderTop extends React.Component{
     render(){
         return(
-            <div className="side-margin">
+            <div className="">
                 <div className="header-container-top white-bg">
                     <div className="row">
                         <div className="col-md-7">

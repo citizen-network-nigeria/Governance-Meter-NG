@@ -18,7 +18,56 @@
 
 
  @media(max-width:600px){
-   .side-margin{
-     margin: 0px !important;
-   }
+  .side-margin{
+    margin: 0px !important;
+  }
+  .logo-box{
+    display: none;
+  }
+  .tab-align-last-odd{
+   width: 100%;
  }
+ .tab-align{
+   width: 48%;
+ }
+ .body-tab{
+   padding-left: 1em;
+   padding-right: 1em;
+ }
+
+
+
+
+}
+
+
+@media(max-width:350px){
+   
+ .tab-align{
+   width: 100%;
+ }
+}
+
+
+
+
+
+
+ @keyframes mobilehide{
+  from{
+      opacity: 1;
+    
+  }
+  to {
+      opacity: 0;
+  }
+}
+
+@keyframes mobileshow{
+  from{
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
