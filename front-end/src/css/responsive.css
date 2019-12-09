@@ -1,32 +1,101 @@
- @media(max-width:810px){
-.hd-img{
-  display: none !important;
+@media(max-width:810px){
+   .hd-img{display: none;}
+  .hd-txt{
+    width: 100% !important;
+  }
+  .desktop-menu-tray{
+    display: none;
+  }
+  .mobile-menu-bag{
+    display: block;
+  }
+  .chart-pole{  min-width: 1.5em;  }
+  .header-container-top{ padding-right: 2em; padding-left: 2em; }
+  .desktop-menu-list { font-size: 1em};
+
+
+
+   }
+
+
+
+/*lg breaking point*/
+@media(max-width:992px){
+   
+.card-1{margin-top:1.7em;}
+.desktop-menu-list { font-size: 1.0em};
+    
+
 }
-.hd-txt{
-  width: 100% !important;
-}
-.desktop-menu-tray{
-  display: none;
-}
-.mobile-menu-bag{
+
+
+
+/*md breaking point*/
+@media(max-width:768px){
+  .gpi-title-col {
+     margin-top: 0.6em; } 
+  .g-title{
+    width: 49%; display: inline-block;
+  }  
+  .g-value{
+    width: 49%; display: inline-block; margin-left: 0px;
+  }
+  .chart-pole{  min-width: 1.3em;  }  
+  .comp-add-state{width:100%; margin-left: 0px;}
+.comp-text-hd{display: block;}
+.comp-flex-box{ 
   display: block;
 }
+.card-1{
+  margin-top:2em; 
+}
+.right-hd{width: 50%;}
+.left-hd{width: 48%;}
 
- }
+h1{  font-size: 2.4em; font-weight: bold;
+}
+h2{  font-size: 2em; font-weight: bold;
+}
+h3{  font-size: 1.5em; font-weight: bold;
+}
+h4{  font-size: 1.3em; font-weight: bold;
+}
+h5{
+  font-size: 1.15em; font-weight: bold;
+}
+h6{
+  font-size: 0.9em; font-weight: bold;
+}
+.tab-align{
+  width: 49%;
+}
+.tab-align-last-odd{
+  width: 99%;
+}
 
 
 
 
- @media(max-width:600px){
+}
+
+
+
+/*sm breaking point*/
+ @media(max-width:576px){
   .side-margin{
     margin: 0px !important;
   }
-  .logo-box{
-    display: none;
-  }
+  .db-bag-hd{font-size: 1em; padding-top: 15px;}
+  .db-button{font-size: 0.8em;}
+   .search{display: none;}
+   .activate-search{display: block;}
+   .right-hd{width: 30%;}
+   .left-hd{width: 68%;}
   .tab-align-last-odd{
-   width: 100%;
+   width: 98%;
  }
+ .db-sm-n{padding: 0px !important;}
+ .close-box{line-height: 1.4em; padding: 10px 10px;}
  .tab-align{
    width: 48%;
  }
@@ -34,6 +103,19 @@
    padding-left: 1em;
    padding-right: 1em;
  }
+.comp-flex-box{ display: block;}
+.chart-box {  margin: 1px 0.1em;}
+.chart-pole{  min-width: 0.6em;  }
+.db-hd, .db-eo, .db-srl, .db-ihr{}
+
+.staff-nav-box{
+  width: 2em;
+  height: 2em;
+  border-radius: 1em;
+}
+.owl-box{
+  width: 70% !important;
+}
 
 
 

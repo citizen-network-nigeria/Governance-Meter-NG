@@ -1,15 +1,15 @@
 import React from 'react';
 import HeaderTop from './headerTop';
-import HeaderBottom from './headerBottom';
+import HeaderBottomPages from './headerBottomPages';
 
-class headerhome extends React.Component{
+class headerPage extends React.Component{
     render(){
         return(
             <div className="no-padding no-margin">  
                 <HeaderTop />
-                <HeaderBottom />
+                <HeaderBottomPages info={this.props.info} />
             </div>
         )
     }
 }
- export default headerhome;
+ export default headerPage;
